@@ -1,0 +1,39 @@
+.main-body {
+	background-color: lightblue;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: lightblue;
+}
+/* a 	{
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+} */
+
+li {
+	/* height: 100px; */
+	list-style: none;
+	margin: 5px;
+	background-color: white;
+	/* text-align: center; */
+}
+.tweet{
+	padding: 15px;
+	border: 10px;
+}
+.creator {
+	text-align: left;
+	font-size: 1.25em;
+}
+.content {
+	text-align: left;
+	font-weight: bold;
+}
+.time {
+	text-align: right;
+	border-bottom: 5px black;
+}
