@@ -1,41 +1,27 @@
+/************************************* 
+	MAIN
+ *************************************/
+
 body {
 	background: lightblue;
 }
 
-.tweet-main {
-	padding-top: 20px;
-	background: white;
-}
-.tweet-sidebar {
-	padding-top: 20px;
-	background: white;
-}
-.tweet-post {
-
-}
-.creator {
-	font-size: 22px;
-	text-decoration: none;
-}
 a:hover{
 	text-decoration:none;
 }
-.main-content {
-	/* background: white; */
-}
-.content {
-	text-align: center;
-	font-size: 16px;
-}
-.time {
-	text-align: right;
-	font-size: 12px;
-}
+
+
+/************************************* 
+	NAVBAR
+ *************************************/
+
+
 #navbar {
 	padding: 0;
 }
 .navbar {
-	height: 70px;
+	height: 46px;
+	background: white;
 }
 .navbar a {
 	color: black;
@@ -47,13 +33,83 @@ a:hover{
 .navbar-right a {
 	font-size: 18px;
 }
+.add-tweet {
+	margin-top: 8px;
+}
+
+
+/************************************* 
+	MAIN TWEET CONTENT
+ *************************************/
+
+
+.tweet-main {
+	padding-top: 20px;
+	background: white;
+}
+
+.creator {
+	font-size: 22px;
+	text-decoration: none;
+}
+.content {
+	text-align: center;
+	font-size: 16px;
+}
+.time {
+	text-align: right;
+	font-size: 12px;
+}
+
+
+/************************************* 
+	SIDEBAR CONTENT
+ *************************************/
+
+
+.tweet-sidebar {
+	padding-top: 20px;
+	background: white;
+}
+
+/************************************* 
+	VISITOR TWEET
+ *************************************/
+
+
+#tweet-box {
+	background: white;
+	height: 50%;
+	width: 30%;
+	margin-top: 150px;
+	background: lightblue;
+	border: 20px solid whitesmoke;
+}
+	
+
+/************************************* 
+	USER HERO BOX
+ *************************************/
+
+
 .user {
 	padding-bottom: 30px;
 	background: white;
 	text-align: center;
-	
+	width: 50%	;
 }
+
+
+/************************************* 
+	ADDED TO RENDER PROPERLY
+ *************************************/	
+
+
 .empty {
 	height: 20px;
+	background: lightblue;
+}
+.forspace {
+	height: 70px;
 	background: lightblue;
 }
