@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Twittler</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ian Conery">
+
+    <title>Twittler</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="main.css">
+
     <script src="javascript/jquery.js"></script>
     <script src="javascript/momentjs.js"></script>
     <script src="javascript/data_generator.js"></script>
     <script src="javascript/app.js"></script>
   </head>
+
   <body>
-    <div class="container">
-      <header>
-        <h2>Twittler</h2>
-      </header>
-    </div>
-    <!-- <div class="jumbotron">
+        <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-relative">
       <div class="container">
-        <h1>Twittler</h1>
-        <p>Yet another copy of Twitt(l)er!</p>
-      </div> -->
-    </div>  
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Twittler</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class=""><a href="#">Home</a></li>
+            <!-- <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+          </ul>
+        </div><!-- end .nav-collapse -->
+      </div><!-- end .container -->
+    </nav>
+     
     <div class="container">
       <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-large-4">
-          <div class="main-body">
-            <ul class="tweets">
-              
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4"></div>
-      </div>
-    </div>
-
+          <!--tweet content -->
+          <div class="col-sm-8 tweet-main">
+            <div class="tweet-post">
+              <!--dynamic content-->
+            </div>
+          </div><!-- end tweet-main -->
+        
+     <!--  sidebar  
+     <div class="col-sm-3 col-sm-offset-1 tweet-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+             <h4>Currently Following</h4>
+             <ul class="list-unstyled">
+               <li><a href="userHTML/douglascalhoun.html">@douglascalhoun</a></li>
+               <li><a href="userHTML/mracus.html">@mracus</a></li>
+               <li><a href="userHTML/sharksforcheap.html">@sharksforcheap</a></li>
+               <li><a href="userHTML/shawndrost.html">@shawndrost</a></li>
+             </ul>
+          </div>   
+       </div>end sidebar -->
+    </div><!-- end row -->
+  </div><!-- end container -->
 
   </body>
 </html>
