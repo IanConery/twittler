@@ -47,7 +47,7 @@ var generateRandomTweet = function(){
   tweet.user = randomElement(users);
   tweet.message = randomMessage();
   /*tweet.created_at = new Date();*/
-  tweet.created_at = moment().format('dddd MMM Do YYYY, [at] h:mm a' );
+  tweet.created_at = moment().format('ddd MMM Do YYYY, [at] h:mm a' );
   addTweet(tweet);
 };
 
