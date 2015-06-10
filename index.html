@@ -51,7 +51,7 @@
             <!-- Text input-->
             <div class="control-group">
               <div class="controls">
-                <textarea id="tweet-input" cols='45' rows="6" placeholder="What would you like to say?"></textarea>
+                <textarea id="tweet-input" autofocus="" cols='45' rows="6" onfocus="clearTextArea()" placeholder="What would you like to say?"></textarea>
               </div>
             </div>
 
@@ -104,11 +104,4 @@
   </body>
 </html>
 
-            <form class="user-tweet" name="contact">
-                <label class="label" for="name">Your Name</label><br>
-                <input type="text" name="name" class="input-xlarge"><br>
-                <label class="label" for="email">Your E-mail</label><br>
-                <input type="email" name="email" class="input-xlarge"><br>
-                <label class="label" for="message">Enter a Message</label><br>
-                <textarea name="message" class="input-xlarge"></textarea>
-            </form>
+            

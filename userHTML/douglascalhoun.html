@@ -27,6 +27,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+            <button class="btn btn-info add-tweet" data-toggle='modal'>Tweet</button>
             <li class=""><a href="../index.html">Home</a></li>
             <!-- <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li> -->
@@ -35,8 +36,39 @@
       </div><!-- end .container -->
     </nav>
     <div class="forspace">
-      
     </div>
+
+     <!-- tweet box -->
+    <div id="tweet-box" class="modal fade in container img-rounded" style="display: none;">
+        <div class="modal-header">
+            <a class="close" data-dismiss="modal">×</a>
+            <h3>New Tweet</h3>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <fieldset>
+            <!-- Text input-->
+            <div class="control-group">
+              <div class="controls">
+                <textarea id="tweet-input" autofocus="" cols='45' rows="6" placeholder="What would you like to say?"></textarea>
+              </div>
+            </div>
+
+            </fieldset>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+            <!-- Button -->
+            <div class="control-group">
+              <div class="controls">
+                <button id="send-tweet" class="btn btn-info ">Tell everybody!</button>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- end tweet box -->
 
     <div class="container user img-rounded">
       <h3>Douglas Calhoun's</h3>
