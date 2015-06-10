@@ -2,10 +2,10 @@
 
   $(document).ready(function(){
           
-    //some ugly code follows, I know there must be a better way, still looking
     
-      (function(){  
-          
+     
+        (function(){
+           
           var index = 0;
 
           var populate = function(){
@@ -13,7 +13,8 @@
             var currentTweetArray = streams.home;
 
             for(i = index; i <= currentArraySize; i++){
-
+                //some ugly code follows, I know there must be a better way, still looking
+                
                 var tweet = currentTweetArray[i];
                 var $tweet = $('<div class="tweet">');
                 var $author = $('<a class="creator" href="">@' + tweet.user + '</a>').attr('href',"userHTML/" + tweet.user + ".html");
@@ -38,11 +39,11 @@
              }
           }, 1000);
 
-      }());
+        })();
 
 
         
-
+        // tweet-box controls 
 
           $('.add-tweet').click(function(){
             $('#tweet-box').toggle();

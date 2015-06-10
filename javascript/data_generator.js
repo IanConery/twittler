@@ -70,7 +70,7 @@ var writeTweet = function(message){
   var tweet = {};
   tweet.user = visitor;
   tweet.message = message;
-  tweet.created_at = moment().format('dddd MMM Do YYYY, [at] h:mm a' );
+  tweet.created_at = moment().format('ddd MMM Do YYYY, [at] h:mm a' );
   addTweet(tweet);
 };
 

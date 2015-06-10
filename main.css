@@ -73,7 +73,7 @@ a:hover{
 }
 
 /************************************* 
-	VISITOR TWEET
+	TWEET POP UP
  *************************************/
 
 
@@ -81,9 +81,9 @@ a:hover{
 	background: white;
 	height: 50%;
 	width: 30%;
-	margin-top: 150px;
+	margin: 150px 33% 0;
 	background: lightblue;
-	border: 20px solid whitesmoke;
+	border: 20px solid whitesmoke; 
 }
 	
 
